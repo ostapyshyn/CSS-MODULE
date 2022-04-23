@@ -1,0 +1,72 @@
+.topContacts {
+  background-color: #0a0043;
+  padding-top: 2px;
+  padding: 7px;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
+  max-width: 75%;
+}
+
+.leftBlock,
+.rightBlock {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+
+.topContactsItem {
+  display: flex;
+  gap: 12px;
+  align-items: center;
+  cursor: pointer;
+}
+
+.topContactsInfo {
+  font-family: 'Montserrat';
+  font-style: normal;
+  color: #ffffff;
+  font-size: 14px;
+  font-weight: 500;
+  letter-spacing: 0.05em;
+  line-height: 17px;
+}
+
+.whatsApp {
+  font-family: 'Montserrat';
+  font-style: normal;
+  color: #ffffff;
+  font-size: 12px;
+  font-weight: 500;
+  letter-spacing: 0.05em;
+  line-height: 15px;
+}
+
+.whatsIMG {
+  height: 18px;
+  width: 18px;
+}
+
+.topContactsImage {
+  height: 14px;
+  width: 14px;
+}
+
+.heart {
+  height: 20px;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  position: relative;
+  top: 3px;
+}
+
+.flag {
+  height: 17px;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
