@@ -1,0 +1,56 @@
+.help {
+  display: flex;
+  margin-bottom: 70px;
+}
+
+.info {
+  padding-top: 130px;
+}
+
+.name {
+  display: flex;
+  align-items: center;
+  gap: 21px;
+}
+
+.name h3 {
+  font-weight: 600;
+  font-size: 20px;
+}
+
+.line {
+  width: 88px;
+  height: 3px;
+  background-color: #2b66fa;
+}
+
+.title {
+  font-weight: 600;
+  font-size: 48px;
+}
+
+.title span {
+  color: #2b66fa;
+}
+
+.info p {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 22px;
+  font-style: normal;
+}
+
+.helpImage {
+  margin-left: auto;
+}
+
+.helpButton {
+  background-color: #ffffff;
+  border: 1px solid;
+  border-radius: 30px;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: 400;
+  margin-top: 30px;
+  padding: 12px 31px;
+}

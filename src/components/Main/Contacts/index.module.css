@@ -1,0 +1,64 @@
+.line {
+  background-color: #008dfe;
+  margin: 50px auto;
+  width: 110px;
+  height: 2px;
+}
+
+.contactsBody {
+  display: flex;
+  justify-content: space-between;
+  max-width: 1013px;
+  margin: 0 auto;
+  padding-left: 50px;
+  text-align: center;
+}
+
+.contactsSection {
+  text-align: center;
+}
+
+.contactTitle {
+  margin-bottom: 24px;
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 27px;
+}
+
+.contactInfo {
+  display: flex;
+  gap: 15px;
+}
+
+.contactInfo p,
+.contactsSection p {
+  color: #818181;
+}
+
+.appsBody {
+  text-align: center;
+}
+
+.appsTitle {
+  margin-bottom: 30px;
+  font-weight: 600;
+  font-size: 24px;
+}
+
+.appsContainer {
+  display: flex;
+  justify-content: center;
+  gap: 70px;
+}
+
+.appsItem {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.appsItem p {
+  font-weight: 400;
+  font-size: 14px;
+  color: #818181;
+}

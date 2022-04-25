@@ -1,0 +1,70 @@
+.forma {
+  width: 320px;
+}
+.form__main {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.error {
+  color: #bf1650;
+  font-size: 14px;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.error::before {
+  content: '⚠ ';
+  display: inline;
+}
+
+.contactform__submit {
+  color: #ffffff;
+  background: linear-gradient(90deg, #0052d4 0%, #4364f7 50%, #6fb1fc 100%);
+  border: none;
+  border-radius: 30px;
+  margin: 0 auto;
+  padding: 7px 0;
+  width: 140px;
+  cursor: pointer;
+  font-size: 14px;
+  line-height: 17px;
+  text-align: center;
+}
+
+.contactform__submit:hover {
+  box-shadow: inset -250px 0 20px 20px #6279ff;
+}
+
+.form__title {
+  color: #393939;
+  font-size: 24px;
+  font-weight: 700;
+  font-family: 'Montserrat', sans-serif;
+  letter-spacing: 0.1em;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.contactform__input {
+  border: 1px solid #f8f8f8;
+  outline: none;
+  font-weight: 400;
+  font-size: 12px;
+  padding: 9px 20px;
+  box-shadow: 0px 2px 10px rgba(136, 136, 136, 0.1);
+  border-radius: 10px;
+}
+
+.contactform__input::placeholder {
+  color: #c4c4c4;
+}
+
+.form__info {
+  display: flex;
+  gap: 12px;
+}
+
+.form__textarea {
+  resize: none;
+}

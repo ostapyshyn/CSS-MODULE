@@ -1,0 +1,48 @@
+.footer {
+  background-color: #1d2647;
+  color: #ffffff;
+  margin-top: 130px;
+}
+
+.container {
+  max-width: 75%;
+  margin: 0 auto;
+}
+
+.titles {
+  padding-top: 50px;
+  padding-bottom: 10px;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.titles img {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.title {
+  font-size: 16px;
+  font-weight: 400;
+  margin-top: 35px;
+}
+
+.title span {
+  font-weight: 700;
+}
+
+.copy {
+  text-align: center;
+  font-weight: 500;
+  font-size: 10px;
+  line-height: 12px;
+  letter-spacing: 0.05em;
+  padding-top: 50px;
+  padding-bottom: 20px;
+}
+
+.footerBody {
+  display: flex;
+  justify-content: space-between;
+  font-size: 14px;
+}
