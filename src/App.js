@@ -1,6 +1,6 @@
 import React from 'react';
 
-import { Header, Main, Footer } from './components';
+import { Header, Main, Footer, TopArrow } from './components';
 
 const App = () => {
   return (
@@ -8,6 +8,7 @@ const App = () => {
       <Header />
       <Main />
       <Footer />
+      <TopArrow />
     </div>
   );
 };
