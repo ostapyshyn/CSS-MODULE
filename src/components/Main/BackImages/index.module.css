@@ -1,0 +1,87 @@
+.plane1,
+.plane2,
+.plane3,
+.plane4,
+.plane5 {
+  position: relative;
+}
+
+.backImage_1 {
+  background-color: #ebf6ff;
+  position: absolute;
+  border-radius: 50%;
+  z-index: -1;
+  top: 745px;
+  left: 55px;
+  width: 141px;
+  height: 141px;
+}
+
+.plane1 {
+  top: 70px;
+  left: 60px;
+}
+
+.backImage_2 {
+  top: 1033px;
+  left: -35px;
+  height: 97px;
+  width: 97px;
+  z-index: -1;
+  background-color: #ebf6ff;
+  position: absolute;
+  border-radius: 50%;
+}
+
+.plane2 {
+  top: 33px;
+  left: 33px;
+}
+
+.backImage_3 {
+  top: 1500px;
+  left: -180px;
+  height: 341px;
+  width: 341px;
+  z-index: -1;
+  background-color: #ebf6ff;
+  position: absolute;
+  border-radius: 50%;
+}
+
+.plane3 {
+  top: 160px;
+  left: 230px;
+}
+
+.backImage_4 {
+  top: 750px;
+  right: 0;
+  width: 266px;
+  height: 266px;
+  z-index: -1;
+  background-color: #ebf6ff;
+  position: absolute;
+  border-radius: 50%;
+}
+
+.plane4 {
+  top: 87px;
+  left: 60px;
+}
+
+.backImage_5 {
+  top: 1390px;
+  right: 32px;
+  height: 97px;
+  width: 97px;
+  z-index: -1;
+  background-color: #ebf6ff;
+  position: absolute;
+  border-radius: 50%;
+}
+
+.plane5 {
+  top: 25px;
+  left: 35px;
+}
